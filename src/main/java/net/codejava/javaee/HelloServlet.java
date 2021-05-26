@@ -44,6 +44,7 @@ public class HelloServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Server at: ").append(request.getContextPath());
 		String yourName = request.getParameter("yourName");
+
 		// Instanciando a person
 		Person person = new Person();
 		person.setName(yourName);
